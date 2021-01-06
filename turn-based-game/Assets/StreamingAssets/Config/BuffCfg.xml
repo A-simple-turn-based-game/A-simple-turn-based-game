@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>虚无</name>
+		<description>每受到一次伤害时会受到额外的30点魔法伤害。</description>
+		<icon>state_nihilitys</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>1</roundMode>
+		<buffCfgNode1>{1010},{3010,30}</buffCfgNode1>
+	</item>
+	<item id="1002">
+		<name>阳炎冲击·强化</name>
+		<description>阳炎冲击伤害提升30%</description>
+		<icon>state_sunburst_powerup</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>2</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1018,1001},{1019},{3003,130}</buffCfgNode1>
+	</item>
+	<item id="1003">
+		<name>魔力回路</name>
+		<description>法力消耗+20%，造成的魔法伤害+20%。</description>
+		<icon>state_magicloop</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1019},{3003,120}</buffCfgNode1>
+		<buffCfgNode2>{1021},{3008,120}</buffCfgNode2>
+	</item>
+	<item id="1004">
+		<name>灼伤</name>
+		<description>回合结束时，受到10点魔法伤害,可叠加。</description>
+		<icon>state_burn</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3010,10}</buffCfgNode1>
+	</item>
+	<item id="1005">
+		<name>抗性皮肤</name>
+		<description>受到任何伤害时，防御力+3。</description>
+		<icon>state_resistskin</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1010},{3014,3}</buffCfgNode1>
+	</item>
+	<item id="1006">
+		<name>狂热</name>
+		<description>造成物理伤害时，攻击力+5。</description>
+		<icon>state_crazy</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1014},{3013,5}</buffCfgNode1>
+	</item>
+	<item id="1007">
+		<name>生命吸取·力量成长</name>
+		<description>每次释放生命吸取，获得5点攻击力和防御力。</description>
+		<icon>state_lifesteal</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1001,1005},{3013,5}</buffCfgNode1>
+		<buffCfgNode2>{1001,1005},{3014,5}</buffCfgNode2>
+	</item>
+	<item id="1008">
+		<name>阳炎冲击·破甲熔岩</name>
+		<description>阳炎冲击的每次命中会降低目标的5点防御力</description>
+		<icon>state_sunburst_powerup</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1001,1001},{3014,-5}</buffCfgNode1>
+	</item>
+	<item id="1009">
+		<name>中毒</name>
+		<description>回合结束时，受到10点魔法伤害,可叠加。</description>
+		<icon>state_poisonsting</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3010,10}</buffCfgNode1>
+	</item>
+	<item id="1010">
+		<name>虚弱诅咒</name>
+		<description>造成的物理伤害-50%。</description>
+		<icon>state_sunburst_powerup</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,50}</buffCfgNode1>
+	</item>
+	<item id="1011">
+		<name>禁魔</name>
+		<description>造成的法术伤害-50%。</description>
+		<icon>state_nomagic</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1019},{3003,50}</buffCfgNode1>
+	</item>
+	<item id="1012">
+		<name>怒气</name>
+		<description>普通攻击时，暴击率+5，若暴击，则额外+5。(未实现)</description>
+		<icon>state_sunburst_powerup</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1015},{3006,5}</buffCfgNode1>
+		<buffCfgNode2>{1016},{3006,5}</buffCfgNode2>
+	</item>
+	<item id="1013">
+		<name>回复术</name>
+		<description>回合结束时，恢复10点生命值，可叠加。</description>
+		<icon>state_burn</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3011,10}</buffCfgNode1>
+	</item>
+	<item id="1014">
+		<name>渐弱</name>
+		<description>回合结束时，失去3点攻击力。</description>
+		<icon>state_burn</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3013,-3}</buffCfgNode1>
+	</item>
+	<item id="1015">
+		<name>活体护甲</name>
+		<description>受到任何伤害时，恢复10点生命值。</description>
+		<icon>state_resistskin</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1010},{3011,10}</buffCfgNode1>
+	</item>
+	<item id="1016">
+		<name>回馈</name>
+		<description>消耗法力时，恢复10点生命值。</description>
+		<icon>state_magicloop</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1021},{3011,10}</buffCfgNode1>
+	</item>
+	<item id="1017">
+		<name>生命偷取</name>
+		<description>攻击时，恢复10点生命值。</description>
+		<icon>state_magicloop</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1015},{3011,10}</buffCfgNode1>
+	</item>
+	<item id="1018">
+		<name>霜蚀</name>
+		<description>造成的物理伤害-50%。</description>
+		<icon>state_frostbreak</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>1</roundMode>
+		<buffCfgNode1>{1020},{3002,50}</buffCfgNode1>
+	</item>
+	<item id="1019">
+		<name>霜爆·迟缓施法</name>
+		<description>造成的魔法伤害-50%。</description>
+		<icon>state_frostbreak</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>1</roundMode>
+		<buffCfgNode1>{1019},{3003,50}</buffCfgNode1>
+	</item>
+	<item id="1020">
+		<name>霜爆·冰封秘典</name>
+		<description>造成的魔法伤害+50%。</description>
+		<icon>state_frostbreak</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>1</roundMode>
+		<buffCfgNode1>{1019},{3003,150}</buffCfgNode1>
+	</item>
+	<item id="1021">
+		<name>冻伤</name>
+		<description>回合结束时，受到10点魔法伤害,可叠加。</description>
+		<icon>state_burn</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3010,10}</buffCfgNode1>
+	</item>
+	<item id="1022">
+		<name>虚无·灵体</name>
+		<description>造成和受到的物理伤害-50%。</description>
+		<icon>state_nihilitys</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>1</roundMode>
+		<buffCfgNode1>{1020},{3002,50}</buffCfgNode1>
+		<buffCfgNode2>{1024},{3004,50}</buffCfgNode2>
+	</item>
+	<item id="1023">
+		<name>虚无·无力化</name>
+		<description>虚无的每次命中会降低目标的10点攻击力</description>
+		<icon>state_nihilitys</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1001,1002},{3013,-10}</buffCfgNode1>
+	</item>
+	<item id="1024">
+		<name>水晶剑</name>
+		<description>水晶剑正在畅饮鲜血。
+造成物理伤害时，攻击力+5。</description>
+		<icon>state_crystalblade</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1014},{3013,5}</buffCfgNode1>
+	</item>
+	<item id="1025">
+		<name>常绿戒指</name>
+		<description>森林的祝福正在庇护你。
+受到任何伤害时，恢复10点生命值。</description>
+		<icon>state_greenring</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1010},{3011,10}</buffCfgNode1>
+	</item>
+	<item id="1026">
+		<name>永恒之盘</name>
+		<description>受到任何伤害时，防御力+3。</description>
+		<icon>state_eternal</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1010},{3014,3}</buffCfgNode1>
+	</item>
+	<item id="1027">
+		<name>智灭</name>
+		<description>造成的魔法伤害-50%。</description>
+		<icon>state_wisdomend</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1019},{3003,50}</buffCfgNode1>
+	</item>
+	<item id="1028">
+		<name>治疗宝珠</name>
+		<description>回合结束时，恢复5点生命值。</description>
+		<icon>state_healstone</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3011,5}</buffCfgNode1>
+	</item>
+	<item id="1029">
+		<name>洞察烟斗</name>
+		<description>造成的物理伤害-15%，魔法伤害-15%。</description>
+		<icon>state_pipe</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,85}</buffCfgNode1>
+		<buffCfgNode2>{1019},{3003,85}</buffCfgNode2>
+	</item>
+	<item id="1030">
+		<name>先祖战鼓</name>
+		<description>造成的物理伤害+10%，魔法伤害+10%。</description>
+		<icon>state_drum</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,110}</buffCfgNode1>
+		<buffCfgNode2>{1019},{3003,110}</buffCfgNode2>
+	</item>
+	<item id="1031">
+		<name>眩晕</name>
+		<description>本回合无法行动</description>
+		<icon>state_dizziness</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1001},{3026}</buffCfgNode1>
+	</item>
+	<item id="1032">
+		<name>虚无·裂心</name>
+		<description>受到的魔法伤害+30%。</description>
+		<icon>state_nihilitys</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>1</roundMode>
+		<buffCfgNode1>{1025},{3022,130}</buffCfgNode1>
+	</item>
+	<item id="1033">
+		<name>奥术之戒</name>
+		<description>回合结束时，恢复3点法力值。</description>
+		<icon>state_magicring</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3023,3}</buffCfgNode1>
+	</item>
+	<item id="1034">
+		<name>以太之镜</name>
+		<description>你的法力消耗-20%。</description>
+		<icon>state_mirror</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1021},{3008,80}</buffCfgNode1>
+	</item>
+	<item id="1035">
+		<name>折跃灵刃</name>
+		<description>你造成的物理伤害+100%。</description>
+		<icon>state_spaceknife</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,200}</buffCfgNode1>
+	</item>
+	<item id="1036">
+		<name>天堂之戟</name>
+		<description>造成的全伤害-100%。</description>
+		<icon>state_heaven</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,0}</buffCfgNode1>
+		<buffCfgNode2>{1019},{3003,0}</buffCfgNode2>
+	</item>
+	<item id="1037">
+		<name>星殇-天鹰座</name>
+		<description>受到的物理伤害+30%。</description>
+		<icon>state_stardeath</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1024},{3004,130}</buffCfgNode1>
+	</item>
+	<item id="1038">
+		<name>法师之靴</name>
+		<description>造成的魔法伤害提升25%。</description>
+		<icon>state_wizardshoes</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1019},{3003,125}</buffCfgNode1>
+	</item>
+	<item id="1039">
+		<name>灵魂收割者</name>
+		<description>造成的魔法伤害提升50%，回合结束时，失去5%生命值。</description>
+		<icon>state_soulreaper</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1019},{3003,150}</buffCfgNode1>
+		<buffCfgNode2>{1004},{3011,-5}</buffCfgNode2>
+	</item>
+	<item id="1040">
+		<name>霜寒诅咒</name>
+		<description>回合结束时，失去5点攻击力。</description>
+		<icon>state_frostcurse</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3013,-5}</buffCfgNode1>
+	</item>
+	<item id="1041">
+		<name>残废云雾</name>
+		<description>造成的物理伤害-30%，魔法伤害-30%。</description>
+		<icon>state_mist</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,70}</buffCfgNode1>
+		<buffCfgNode2>{1019},{3003,70}</buffCfgNode2>
+	</item>
+	<item id="1042">
+		<name>熔甲剑舞</name>
+		<description>回合结束时，失去5点防御力。</description>
+		<icon>state_firearmor</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3014,-5}</buffCfgNode1>
+	</item>
+	<item id="1043">
+		<name>能量逸散屏障</name>
+		<description>回合结束时，失去15点防御力。</description>
+		<icon>state_defense</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3014,-15}</buffCfgNode1>
+	</item>
+	<item id="1044">
+		<name>雷霆咆哮</name>
+		<description>造成的物理伤害+30%。</description>
+		<icon>state_lightningroar</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>2</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,130}</buffCfgNode1>
+	</item>
+	<item id="1045">
+		<name>雷鸣召唤</name>
+		<description>你的武器被雷鸣震落，造成的物理伤害-100%。</description>
+		<icon>state_lightningA</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,0}</buffCfgNode1>
+	</item>
+	<item id="1046">
+		<name>至尊咆哮</name>
+		<description>你被咆哮打断，无法施法，造成的魔法伤害-100%。</description>
+		<icon>state_lightningB</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1019},{3003,0}</buffCfgNode1>
+	</item>
+	<item id="1047">
+		<name>狼王之心</name>
+		<description>回合结束时，恢复25点生命值。</description>
+		<icon>state_healstone</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3011,25}</buffCfgNode1>
+	</item>
+	<item id="1048">
+		<name>蓄力</name>
+		<description>这个角色正在准备一次强力打击。
+快！打！断！他！！！</description>
+		<icon>state_disarm</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,100}</buffCfgNode1>
+	</item>
+	<item id="1049">
+		<name>咒能高涨</name>
+		<description>造成的魔法伤害+30%。</description>
+		<icon>state_magicloop</icon>
+		<isDebuff>0</isDebuff>
+		<canBeDispelled>0</canBeDispelled>
+		<effectMode>2</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1019},{3003,130}</buffCfgNode1>
+	</item>
+	<item id="1050">
+		<name>天火圣裁</name>
+		<description>回合结束时，失去20点生命值。</description>
+		<icon>state_burn</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>1</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1004},{3011,-20}</buffCfgNode1>
+	</item>
+	<item id="1051">
+		<name>极寒地狱</name>
+		<description>造成的全伤害降低30%。</description>
+		<icon>state_frostcurse</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1020},{3002,70}</buffCfgNode1>
+		<buffCfgNode2>{1019},{3003,70}</buffCfgNode2>
+	</item>
+</root>

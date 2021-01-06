@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>虚无</name>
+		<icon>2</icon>
+		<description>虚无状态下的敌人，每受到一次伤害时会受到额外的50点魔法伤害。</description>
+		<model>state_nihilitys</model>
+		<monsterType>0</monsterType>
+		<aiType>0</aiType>
+		<exp>1</exp>
+		<gold>1</gold>
+		<hp>0</hp>
+		<mp>0</mp>
+		<atk>{1010},{3010,50}</atk>
+		<def></def>
+		<crit></crit>
+		<criticaldamage></criticaldamage>
+		<skills></skills>
+		<deadeventeffects>s</deadeventeffects>
+		<Atk_time></Atk_time>
+		<Skill_time></Skill_time>
+		<CGAtk_time></CGAtk_time>
+		<Command_time></Command_time>
+		<AtkDamage_time></AtkDamage_time>
+	</item>
+	<item id="1002">
+		<name>虚无</name>
+		<icon>2</icon>
+		<description>虚无状态下的敌人，每受到一次伤害时会受到额外的50点魔法伤害。</description>
+		<model>state_nihilitys</model>
+		<monsterType>0</monsterType>
+		<aiType>0</aiType>
+		<exp>1</exp>
+		<gold>1</gold>
+		<hp>0</hp>
+		<mp>0</mp>
+		<atk>{1010},{3010,50}</atk>
+		<def></def>
+		<crit></crit>
+		<criticaldamage></criticaldamage>
+		<skills></skills>
+		<deadeventeffects>s</deadeventeffects>
+		<Atk_time></Atk_time>
+		<Skill_time></Skill_time>
+		<CGAtk_time></CGAtk_time>
+		<Command_time></Command_time>
+		<AtkDamage_time></AtkDamage_time>
+	</item>
+</root>

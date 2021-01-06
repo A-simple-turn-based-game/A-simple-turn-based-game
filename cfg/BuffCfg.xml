@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>虚无</name>
+		<description>虚无状态下的敌人，每受到一次伤害时会受到额外的50点魔法伤害。</description>
+		<icon>state_nihilitys</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>0</roundMode>
+		<buffCfgNode1>{1010},{3010,50}</buffCfgNode1>
+		<buffCfgNode2></buffCfgNode2>
+		<buffCfgNode3></buffCfgNode3> 
+	</item>
+	<item id="1002">
+		<name>阳炎冲击</name>
+		<description>阳炎冲击伤害提升30%</description>
+		<icon>state_sun</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<effectMode>0</effectMode>
+		<roundMode>1</roundMode>
+		<buffCfgNode1>{1018,1003},{3003,30}</buffCfgNode1>
+		<buffCfgNode2></buffCfgNode2>
+		<buffCfgNode3></buffCfgNode3> 
+	</item>
+</root>

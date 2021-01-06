@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>丛林入口</name>
+		<description>0</description>
+		<modelType>丛林深处</modelType>
+		<row>16</row>
+		<col>16</col>
+		<monster>{1001,1},{1002,2},{1003,2},{1009,1}</monster>
+		<event>{1001,1},{1005,1}</event>
+		<nextmap>1002</nextmap>
+		<bgm>map1</bgm>
+		<bossbgm>map1boss</bossbgm>
+		<normalbgm>map1normal</normalbgm>
+	</item>
+	<item id="1002">
+		<name>丛林迷宫</name>
+		<description>0</description>
+		<modelType>丛林深处</modelType>
+		<row>16</row>
+		<col>16</col>
+		<monster>{1004,2},{1005,1},{1007,1},{1010,1},{1011,1}</monster>
+		<event>{1001,1},{1002,1}</event>
+		<nextmap>1003</nextmap>
+		<bgm>map2</bgm>
+		<bossbgm>map2boss</bossbgm>
+		<normalbgm>map2normal</normalbgm>
+	</item>
+	<item id="1003">
+		<name>迷宫深处</name>
+		<description>0</description>
+		<modelType>丛林深处</modelType>
+		<row>16</row>
+		<col>16</col>
+		<monster>{1008,2},{1012,2},{1013,1},{1014,1}</monster>
+		<event>{1001,1},{1002,1}</event>
+		<nextmap>1004</nextmap>
+		<bgm>map3</bgm>
+		<bossbgm>map3boss</bossbgm>
+		<normalbgm>map3normal</normalbgm>
+	</item>
+	<item id="1004">
+		<name>丛林之末</name>
+		<description>0</description>
+		<modelType>丛林深处</modelType>
+		<row>8</row>
+		<col>8</col>
+		<monster>{1015,1}</monster>
+		<nextmap>1005</nextmap>
+		<bgm>map4</bgm>
+		<bossbgm>map4</bossbgm>
+		<normalbgm>map4</normalbgm>
+	</item>
+	<item id="1005">
+		<name>终章</name>
+		<description>0</description>
+		<modelType>终章</modelType>
+		<row>8</row>
+		<col>8</col>
+		<event>{1004,1}</event>
+		<nextmap>1001</nextmap>
+		<bgm>map4</bgm>
+	</item>
+</root>

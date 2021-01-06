@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>水晶宝箱</name>
+		<type>0</type>
+		<description>你在地上看到了一个宝箱，闪闪发光，里面似乎有着许多金币。但是你看到，它的外面满是水晶的碎片，如果去哪宝物的话不可避免的会被划伤……
+显而易见的，你决定：
+</description>
+		<model>Chest</model>
+		<shortopts>{离开},{打开}</shortopts>
+		<options>{绕过这个宝箱—无事发生},{打开宝箱—失去30%生命值，获得200金币。}</options>
+		<results>{你决定先绕过这个宝箱，虽然你很好奇里面会有什么东西。},{最后你还是选择了打开这个宝箱，水晶的碎片也和预想的一样划伤了你。}
+真疼啊……你心里这样想着，不过你确实得到了好多好多钱。}</results>
+		<effects>{},{1003,70-1005,200}</effects>
+	</item>
+	<item id="1002">
+		<name>不等价交换</name>
+		<type>0</type>
+		<description>你看到了一个天平样式的雕像，天平的一端是红色的，而另一端则是蓝色的。“天平总是平衡的”，你看到下面写着一行小字。
+显而易见的，你决定：
+</description>
+		<model>Chest</model>
+		<shortopts>{木鱼},{飞鱼},{离开}</shortopts>
+		<options>{失去40%生命值，获得30%法力值},{失去40%法力值，获得30%生命值},{离开，无事发生}</options>
+		<results>{你向天平的红色一端注入了生命力，果然，你感到充足的魔力汇入了你的身体。},{你向天平的蓝色一端注入了法力值，很快，你感到全身充满了活力。},{这句话是什么意思？你想了想，最后还是离开了这座雕像。}</results>
+		<effects>{1003,60-1004,130},{1004,60-1003,130},{}</effects>
+	</item>
+	<item id="1003">
+		<name>传送</name>
+		<type>1</type>
+		<description>传送到地图编号x</description>
+		<effects>{1008,1001}</effects>
+	</item>
+</root>

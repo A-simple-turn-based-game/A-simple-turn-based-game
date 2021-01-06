@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id = "1001"> 
+		<skillid></skillid>
+		<name> </name>
+		<description> </description>
+		<propertychangedict> </propertychangedict> 
+		<additionalcfg1></additionalcfg1> 
+		<additionalcfg2></additionalcfg2> 
+	</item>
+	<item id = "1002"> 
+		<skillid></skillid>
+		<name> </name>
+		<description> </description>
+		<propertychangedict> </propertychangedict> 
+		<additionalcfg1></additionalcfg1> 
+		<additionalcfg2></additionalcfg2> 
+	</item>
+</root>

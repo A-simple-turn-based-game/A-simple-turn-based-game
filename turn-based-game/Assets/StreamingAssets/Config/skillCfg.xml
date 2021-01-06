@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>阳炎冲击</name>
+		<description>汇聚强大的火焰元素，猛烈地冲击目标区域，造成40点魔法伤害,每次施法都会让阳炎冲击的伤害提升30%。
+法力消耗：15MP，冷却时间：4回合</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{1002,15},{4002,40},{5002,1002,-1},{6001,sunburst,4,2}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1002">
+		<name>虚无</name>
+		<description>使目标进入虚无状态，持续3回合，虚无状态下的角色，每受到一次伤害时会受到额外的30点魔法伤害。
+法力消耗：15MP，冷却时间：8回合</description>
+		<passive>0</passive>
+		<cd>8</cd>
+		<icon>icon_skill_nihility</icon>
+		<maincfg>{1002,15},{5001,1001,3},{6001,nihility,4,0}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1003">
+		<name>魔力回路</name>
+		<description>强化对魔力的感知和利用，
+获得buff：魔力回路，buff状态下，法力消耗+20%，造成的魔法伤害+20%。持续本次战斗。
+法力消耗：10MP，冷却时间：3回合</description>
+		<passive>0</passive>
+		<cd>15</cd>
+		<icon>icon_skill_magicloop</icon>
+		<maincfg>{1002,10},{5002,1003,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1004">
+		<name>火焰冲击</name>
+		<description>造成15点魔法伤害，附加debuff灼伤，持续5回合，灼伤状态下的角色，回合结束时受到10点魔法伤害，该伤害可叠加。
+法力消耗：15MP，冷却时间：2回合</description>
+		<passive>0</passive>
+		<cd>1</cd>
+		<icon>icon_skill_burn</icon>
+		<maincfg>{1002,15},{4002,15},{5001,1004,5},{6001,fire1,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1005">
+		<name>生命汲取</name>
+		<description>汲取目标身上的生命力量化为己用，
+造成30点魔法伤害，回复10点生命值和10点法力值。
+法力消耗：15MP，冷却时间：4回合</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<icon>icon_skill_lifesteal</icon>
+		<maincfg>{1002,15},{4002,30},{4009,10},{4010,10},{6001,lifesteal,4,0}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1006">
+		<name>复苏</name>
+		<description>焕发出强大的生命能量，大幅回复自身的状态。
+回复20%的生命值和20%的法力值，并移除所有debuff。
+冷却时间：99回合</description>
+		<passive>0</passive>
+		<cd>99</cd>
+		<icon>icon_skill_recover</icon>
+		<maincfg>{4011,20},{4012,20},{4013}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1007">
+		<name>抗性皮肤</name>
+		<description>渐渐适应受到的打击，并开始提高对其的抗性。
+获得buff：抗性皮肤，buff状态下，受到任何伤害时，防御力+3。持续本次战斗。
+法力消耗：10MP，冷却时间：15回合。</description>
+		<passive>0</passive>
+		<cd>15</cd>
+		<icon>icon_skill_resistskin</icon>
+		<maincfg>{1002,10},{5002,1005,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1008">
+		<name>狂热</name>
+		<description>随着战斗的节奏逐渐狂热，在战斗中不断强化自己。
+获得buff：狂热，buff状态下，造成物理伤害时，攻击力+5。持续本次战斗。
+法力消耗：10Mp，冷却时间：15回合。</description>
+		<passive>1</passive>
+		<cd>15</cd>
+		<icon>icon_skill_crazy</icon>
+		<maincfg>{1002,10},{5002,1006,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1009">
+		<name>带毒刺击</name>
+		<description>造成15点物理伤害，附加中毒。</description>
+		<passive>0</passive>
+		<cd>3</cd>
+		<maincfg>{4001,15},{5001,1009,-1},{6001,blood2,4,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1010">
+		<name>连斩</name>
+		<description>造成35点物理伤害5次。</description>
+		<passive>0</passive>
+		<cd>3</cd>
+		<maincfg>{4001,35},{3001},{2003,5},{6001,empty,4,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1011">
+		<name>黑暗咆哮</name>
+		<description>造成30点物理伤害。</description>
+		<passive>0</passive>
+		<cd>3</cd>
+		<maincfg>{4001,30},{6001,dark1,4,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1012">
+		<name>虚弱诅咒</name>
+		<description>附加debuff：1010虚弱诅咒</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{5001,1010,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1013">
+		<name>禁魔诅咒</name>
+		<description>附加debuff：1011禁魔</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<icon>icon_skill_frostbreak</icon>
+		<maincfg>{5001,1011,-1},{6001,nihility,4,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1014">
+		<name>怒气</name>
+		<description>获得buff：1012怒气</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{5002,1012,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1015">
+		<name>回复术</name>
+		<description>获得buff：1013回复术</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1013,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1016">
+		<name>渐弱</name>
+		<description>附加debuff：1014渐弱</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{5002,1014,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1017">
+		<name>活体护甲</name>
+		<description>获得buff：1015活体护甲</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{5002,1015,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1018">
+		<name>回馈</name>
+		<description>获得buff：1016回馈</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{5002,1016,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1019">
+		<name>生命偷取</name>
+		<description>获得buff：1017生命偷取</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{5002,1017,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1020">
+		<name>霜爆</name>
+		<description>漫天的冰霜将见证你的埋葬，造成20点魔法伤害,附加debuff：霜蚀，持续2回合。霜蚀状态下的角色，造成的物理伤害降低50%。
+法力消耗：15MP，冷却时间：4回合</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<icon>icon_skill_frostbreak</icon>
+		<maincfg>{1002,15},{4002,20},{5001,1018,2},{6001,frostbreak,4,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1021">
+		<name>血瓶</name>
+		<description>回复30%生命值。</description>
+		<maincfg>{4011,30}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1022">
+		<name>蓝瓶</name>
+		<description>回复30%法力值。</description>
+		<maincfg>{4012,30}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1023">
+		<name>冥炎冲击</name>
+		<description>万千的幽魂燃尽于此，不熄的暗冥火焰发出强大的冲击。
+造成150点魔法伤害。冷却时间：99回合。</description>
+		<passive>0</passive>
+		<cd>99</cd>
+		<maincfg>{4002,150},{6001,dark1,4,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1024">
+		<name>水晶剑（被动）</name>
+		<description>据说每沾染一次鲜血，水晶的剑身就会更加深红一些。
+造成物理伤害时，攻击力+5。</description>
+		<passive>1</passive>
+		<cd>99</cd>
+		<icon>icon_skill_crazy</icon>
+		<maincfg>{5002,1024,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1025">
+		<name>常绿戒指（被动）</name>
+		<description>来自森林的祝福。
+受到伤害时，回复10点生命值。</description>
+		<passive>1</passive>
+		<cd>99</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1025,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1026">
+		<name>永恒之盘（被动）</name>
+		<description>不论如何都无法破坏。
+受到任何伤害时，防御力+3。持续本次战斗。</description>
+		<passive>1</passive>
+		<cd>15</cd>
+		<icon>icon_skill_resistskin</icon>
+		<maincfg>{5002,1026,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1027">
+		<name>智灭（被动）</name>
+		<description>你的魔法伤害降低50%。</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_frostbreak</icon>
+		<maincfg>{5002,1027,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1028">
+		<name>治疗宝珠（被动）</name>
+		<description>回合结束时，回复5点生命值。</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1028,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1029">
+		<name>洞察烟斗（被动）</name>
+		<description>降低敌人造成的15%物理和魔法伤害。</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5001,1029,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1030">
+		<name>先祖战鼓（被动）</name>
+		<description>提高自己造成的10%物理和魔法伤害。</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1030,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1031">
+		<name>黑暗献祭</name>
+		<description>造成40点魔法伤害。</description>
+		<passive>0</passive>
+		<cd>0</cd>
+		<maincfg>{4002,40},{6001,lifesteal,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1032">
+		<name>霜爆</name>
+		<description>漫天的冰霜将见证你的埋葬，造成30点魔法伤害,附加debuff：霜蚀，持续2回合。霜蚀状态下的角色，造成的物理伤害降低50%。
+法力消耗：15MP，冷却时间：4回合</description>
+		<passive>0</passive>
+		<cd>1</cd>
+		<icon>icon_skill_frostbreak</icon>
+		<maincfg>{1002,15},{4002,30},{5001,1018,2},{6001,frostbreak,4,0}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1033">
+		<name>奥术之戒（被动）</name>
+		<description>回合结束时，回复3点法力值。</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1033,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1034">
+		<name>以太之镜（被动）</name>
+		<description>你的法术法力消耗-20%。</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1034,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1035">
+		<name>折跃灵刃（被动）</name>
+		<description>你在第一回合的物理伤害提升100%。</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1035,1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1036">
+		<name>天堂之戟（被动）</name>
+		<description>敌人第一回合造成的伤害降低100%。</description>
+		<passive>1</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5001,1036,1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1037">
+		<name>星落之叹</name>
+		<description>毁伤天落之弓，射落星辰之矢。
+造成100点物理伤害，接下来3回合，提高目标受到的物理伤害30%。冷却时间：99回合。</description>
+		<passive>0</passive>
+		<cd>99</cd>
+		<maincfg>{4001,100},{5001,1037,3},{6001,lightning1,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1038">
+		<name>法师之靴（被动）</name>
+		<description>你造成的魔法伤害提升15%。</description>
+		<passive>1</passive>
+		<cd>99</cd>
+		<icon>icon_skill_frostbreak</icon>
+		<maincfg>{5002,1038,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1039">
+		<name>灵魂收割者（被动）</name>
+		<description>法术伤害提升50%，回合结束时，失去5点生命值。</description>
+		<passive>1</passive>
+		<cd>99</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1039,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1040">
+		<name>冰吼</name>
+		<description>造成50点魔法伤害。</description>
+		<passive>0</passive>
+		<cd>1</cd>
+		<maincfg>{4002,50},{6001,frost2,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1041">
+		<name>霜寒诅咒</name>
+		<description>造成25点魔法伤害，目标每回合失去5点攻击力</description>
+		<passive>0</passive>
+		<cd>99</cd>
+		<maincfg>{4002,25},{5001,1040,-1},{6001,frost1,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1042">
+		<name>残废云雾</name>
+		<description>降低敌人造成的30%物理和魔法伤害。</description>
+		<passive>0</passive>
+		<cd>99</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5001,1041,-1},{6001,nihility,4,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1043">
+		<name>熔甲剑舞</name>
+		<description>造成50点物理伤害，目标每回合失去5点防御力</description>
+		<passive>0</passive>
+		<cd>99</cd>
+		<maincfg>{4001,50},{5001,1042,-1},{6001,fire1,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1044">
+		<name>能量逸散屏障（被动）</name>
+		<description>回合结束时，失去15点防御力。</description>
+		<passive>1</passive>
+		<cd>99</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{5002,1043,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1045">
+		<name>雷暴</name>
+		<description>造成40点魔法伤害。</description>
+		<passive>0</passive>
+		<cd>0</cd>
+		<maincfg>{4002,40},{6001,lightning1,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1046">
+		<name>雷霆咆哮</name>
+		<description>造成30点魔法伤害，提升30%物理伤害。</description>
+		<passive>0</passive>
+		<cd>1</cd>
+		<maincfg>{4002,30},{5002,1044,-1},{6001,lightning1,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1047">
+		<name>雷鸣召唤</name>
+		<description>造成50点魔法伤害，下一回合降低目标造成的物理伤害100%。</description>
+		<passive>0</passive>
+		<cd>2</cd>
+		<maincfg>{4002,50},{5001,1045,2},{6001,lightning2,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1048">
+		<name>至尊咆哮</name>
+		<description>造成50点魔法伤害，下一回合降低目标造成的魔法伤害100%。</description>
+		<passive>0</passive>
+		<cd>2</cd>
+		<maincfg>{4002,50},{5001,1046,2},{6001,lightning1,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1049">
+		<name>狼王之心</name>
+		<description>回合结束时，回复25点生命值。</description>
+		<passive>1</passive>
+		<cd>99</cd>
+		<maincfg>{5002,1047,-1}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1050">
+		<name>蓄力</name>
+		<description>这个角色正在准备一次强力打击。
+快！打！断！他！！！</description>
+		<passive>0</passive>
+		<cd>1</cd>
+		<maincfg>{5002,1048,2}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1051">
+		<name>无我境界</name>
+		<description>专精已有的领域，方可成为真正的大师。
+这个技能没什么用，但天赋池也只会出现其他技能的天赋。</description>
+		<passive>0</passive>
+		<cd>0</cd>
+		<icon>i111con_skill_nihility</icon>
+		<maincfg>{4013}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1052">
+		<name>世界之心_回溯之叹</name>
+		<description>回复15%生命值，移除所有debuff。</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{4011,15},{4013}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1053">
+		<name>世界之心_咒能高涨</name>
+		<description>提升自身30%法术伤害。</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{5002,1049,-1},{6001,dark1,1,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1054">
+		<name>天火圣裁</name>
+		<description>造成50点魔法伤害，目标每回合失去20点生命值。</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{4002,50},{5001,1050,-1},{6001,fire2,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1055">
+		<name>极寒地狱</name>
+		<description>造成50点魔法伤害，目标造成的全伤害降低30%。</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{4002,50},{5001,1051,2},{6001,frost2,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+	<item id="1056">
+		<name>鲜血打击</name>
+		<description>造成150点物理伤害。</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<maincfg>{4001,150},{6001,blood1,3,0}</maincfg>
+		<skillType>1</skillType>
+	</item>
+</root>

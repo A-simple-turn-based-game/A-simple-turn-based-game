@@ -1,0 +1,2 @@
+id	name	description	icon	isDebuff	canBeDispelled	buffJudge	buffCycleJudge	buffAction	actionValue
+1	µ„»º	∞¢∞Õ∞Õ∞Õ	er32r	1	1	{1001}	2001	3001	20

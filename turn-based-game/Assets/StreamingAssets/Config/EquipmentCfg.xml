@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>铁剑</name>
+		<description>锈迹斑斑的铁剑，已经陪着主人征战了许多岁月。</description>
+		<cost>100</cost>
+		<icon>blade</icon>
+		<rarity>R</rarity>
+		<atk>10</atk>
+	</item>
+	<item id="1002">
+		<name>锁子甲</name>
+		<description>防御力只有5的渣渣。</description>
+		<cost>100</cost>
+		<icon>armor</icon>
+		<rarity>R</rarity>
+		<hp>25</hp>
+		<def>5</def>
+	</item>
+	<item id="1003">
+		<name>红水晶</name>
+		<description>透过水晶可以看到里面的生命能量</description>
+		<cost>100</cost>
+		<icon>redcrystal</icon>
+		<rarity>R</rarity>
+		<hp>60</hp>
+		<mp>25</mp>
+	</item>
+	<item id="1004">
+		<name>灵巧披风</name>
+		<description>一位刺客大师留下的披风。</description>
+		<cost>100</cost>
+		<icon>cloak</icon>
+		<rarity>R</rarity>
+		<atk>5</atk>
+		<def>5</def>
+	</item>
+	<item id="1005">
+		<name>女神之泪</name>
+		<description>稀有的蓝宝石，以泪滴的形状闻名。</description>
+		<cost>100</cost>
+		<icon>tears</icon>
+		<rarity>R</rarity>
+		<mp>50</mp>
+		<def>5</def>
+	</item>
+	<item id="1006">
+		<name>闪烁匕首</name>
+		<description>一位刺客大师留下的匕首。</description>
+		<cost>100</cost>
+		<icon>dagger</icon>
+		<rarity>R</rarity>
+		<mp>25</mp>
+		<atk>7</atk>
+	</item>
+	<item id="1007">
+		<name>治疗宝珠</name>
+		<description>可以感受到体力在不断回复。
+回合结束时，回复5点生命值。</description>
+		<cost>100</cost>
+		<icon>healstone</icon>
+		<rarity>R</rarity>
+		<skillId>1028</skillId>
+	</item>
+	<item id="1008">
+		<name>仙灵之心</name>
+		<description>上古仙灵的力量来源,里面的能量不知为何变成了暗红色。
+现在你可以使用“复苏”.</description>
+		<cost>500</cost>
+		<icon>heart</icon>
+		<rarity>SSR</rarity>
+		<skillId>1006</skillId>
+		<hp>100</hp>
+		<mp>100</mp>
+	</item>
+	<item id="1009">
+		<name>冥火之拥</name>
+		<description>被恶灵的火焰环绕的法杖，上面的冥火似乎永远都不会熄灭。
+现在你可以使用“冥炎冲击”。</description>
+		<cost>500</cost>
+		<icon>darkfire</icon>
+		<rarity>SSR</rarity>
+		<skillId>1023</skillId>
+		<mp>150</mp>
+		<atk>20</atk>
+	</item>
+	<item id="1010">
+		<name>风之弓</name>
+		<description>被风精灵加护的长弓，箭矢依风指引。
+你的攻击力提升20%。</description>
+		<cost>250</cost>
+		<icon>wildbow</icon>
+		<rarity>SR</rarity>
+		<atk>120%</atk>
+	</item>
+	<item id="1028">
+		<name>水晶剑</name>
+		<description>据说每沾染一次鲜血，水晶的剑身就会更加深红一些。
+每次造成物理伤害，提高5点攻击力。</description>
+		<cost>250</cost>
+		<icon>crystalblade</icon>
+		<rarity>SR</rarity>
+		<skillId>1024</skillId>
+		<atk>10</atk>
+	</item>
+	<item id="1012">
+		<name>炎阳之盾</name>
+		<description>火焰之力环绕的盾牌，火焰不熄，盾即不灭。</description>
+		<cost>250</cost>
+		<icon>flameshield</icon>
+		<rarity>SR</rarity>
+		<hp>30</hp>
+		<atk>12</atk>
+		<def>12</def>
+	</item>
+	<item id="1013">
+		<name>常绿戒指</name>
+		<description>在森林的加护下，一枚小小的戒指也能焕发出无限生机。
+受到伤害时，回复10点生命值。</description>
+		<cost>250</cost>
+		<icon>greenring</icon>
+		<rarity>SR</rarity>
+		<skillId>1025</skillId>
+		<hp>30</hp>
+		<def>5</def>
+	</item>
+	<item id="1014">
+		<name>小圆盾</name>
+		<description>一面普通的盾牌</description>
+		<cost>100</cost>
+		<icon>littleshield</icon>
+		<rarity>R</rarity>
+		<def>10</def>
+	</item>
+	<item id="1015">
+		<name>贵族头环</name>
+		<description>全能的头环，它什么都有。</description>
+		<cost>100</cost>
+		<icon>loop</icon>
+		<rarity>R</rarity>
+		<hp>20</hp>
+		<mp>20</mp>
+		<atk>3</atk>
+		<def>3</def>
+		<crit>5</crit>
+	</item>
+	<item id="1016">
+		<name>永恒之盘</name>
+		<description>不论如何都无法破坏这个盾牌，它总是能应对任何方式的攻击，它既是永恒。
+你的防御力提升20%，且你每次受到任何伤害时，获得3点防御力。</description>
+		<cost>500</cost>
+		<icon>eternal</icon>
+		<rarity>SSR</rarity>
+		<skillId>1026</skillId>
+		<def>120%</def>
+	</item>
+	<item id="1017">
+		<name>智灭</name>
+		<description>所有的魔力凝结于剑锋，周围的法术流动都变得迟缓起来。
+获得75点攻击力，你的法术伤害降低50%。</description>
+		<cost>500</cost>
+		<icon>wisdomend</icon>
+		<rarity>SSR</rarity>
+		<skillId>1027</skillId>
+		<atk>75</atk>
+	</item>
+	<item id="1018">
+		<name>洞察烟斗</name>
+		<description>透过烟雾的形状可以预知敌人的弱点所在。
+降低敌人造成的15%物理和魔法伤害。</description>
+		<cost>250</cost>
+		<icon>pipe</icon>
+		<rarity>SR</rarity>
+		<skillId>1029</skillId>
+		<hp>50</hp>
+		<mp>50</mp>
+		<def>5</def>
+	</item>
+	<item id="1019">
+		<name>先祖战鼓</name>
+		<description>能奏出振奋人心的鼓点，力量从心里升腾而出。
+提高自己造成的10%物理和魔法伤害。</description>
+		<cost>250</cost>
+		<icon>drum</icon>
+		<rarity>SR</rarity>
+		<skillId>1030</skillId>
+		<atk>10</atk>
+		<def>10</def>
+	</item>
+	<item id="1020">
+		<name>奥术之戒</name>
+		<description>内置了一个不断运转的魔力回路。
+回合结束时，回复3点法力。</description>
+		<cost>100</cost>
+		<icon>magicring</icon>
+		<rarity>R</rarity>
+		<skillId>1033</skillId>
+	</item>
+	<item id="1021">
+		<name>以太之镜</name>
+		<description>魔力在镜子中不断的反射，多么有趣。
+你的法术法力消耗-20%。</description>
+		<cost>250</cost>
+		<icon>mirror</icon>
+		<rarity>SR</rarity>
+		<skillId>1034</skillId>
+		<mp>50</mp>
+		<atk>10</atk>
+	</item>
+	<item id="1022">
+		<name>铁之箭</name>
+		<description>战场上常见的铁箭。</description>
+		<cost>100</cost>
+		<icon>arrow</icon>
+		<rarity>R</rarity>
+		<crit>15</crit>
+	</item>
+	<item id="1023">
+		<name>大剑</name>
+		<description>巨大的长剑，挥舞时需要巨大的力量。</description>
+		<cost>100</cost>
+		<icon>bigblade</icon>
+		<rarity>R</rarity>
+		<crit>5</crit>
+		<criticalDamage>25</criticalDamage>
+	</item>
+	<item id="1024">
+		<name>白银之锋</name>
+		<description>阻挡它的瞬间就已经受到伤害，真正的杀人于无形。
+暴击率+50%，暴击伤害+50%。</description>
+		<cost>500</cost>
+		<icon>silverblade</icon>
+		<rarity>SSR</rarity>
+		<atk>15</atk>
+		<crit>50</crit>
+		<criticalDamage>50</criticalDamage>
+	</item>
+	<item id="1025">
+		<name>折跃灵刃</name>
+		<description>无声降临的死神，无影闪烁的幽魂。
+战斗第一回合，造成的物理伤害+100%。</description>
+		<cost>500</cost>
+		<icon>spaceknife</icon>
+		<rarity>SSR</rarity>
+		<skillId>1035</skillId>
+		<atk>25</atk>
+		<crit>15</crit>
+		<criticalDamage>15</criticalDamage>
+	</item>
+	<item id="1026">
+		<name>天堂之戟</name>
+		<description>大天使长手中的圣戟，耀眼的圣光可以荡涤一切邪恶。
+战斗第一回合，敌人造成的伤害-100%。</description>
+		<cost>500</cost>
+		<icon>heaven</icon>
+		<rarity>SSR</rarity>
+		<skillId>1036</skillId>
+		<atk>25</atk>
+		<def>15</def>
+		<crit>15</crit>
+	</item>
+	<item id="1027">
+		<name>星殇-天鹰座</name>
+		<description>毁伤天落之弓，射落星辰之矢。
+现在你可以使用：星落之叹</description>
+		<cost>500</cost>
+		<icon>stardeath</icon>
+		<rarity>SSR</rarity>
+		<skillId>1037</skillId>
+		<atk>25</atk>
+		<criticalDamage>25</criticalDamage>
+	</item>
+	<item id="1011">
+		<name>世界之心碎片</name>
+		<description>世界之心的碎片，奈文摩尔用以回溯时间的物品。</description>
+		<cost>500</cost>
+		<icon>worldheart</icon>
+		<rarity>SSR</rarity>
+		<atk>5</atk>
+	</item>
+	<item id="1029">
+		<name>法师之靴</name>
+		<description>高贵法师们的指定选择。</description>
+		<cost>250</cost>
+		<icon>wizardshoes</icon>
+		<rarity>SR</rarity>
+		<skillId>1038</skillId>
+		<mp>50</mp>
+	</item>
+	<item id="1030">
+		<name>灵魂收割者</name>
+		<description>收割灵魂者，必先献出灵魂。
+你造成的魔法伤害提高50%，回合结束时，你失去5点生命值</description>
+		<cost>500</cost>
+		<icon>soulreaper</icon>
+		<rarity>SSR</rarity>
+		<skillId>1039</skillId>
+		<hp>50</hp>
+		<mp>50</mp>
+		<atk>25</atk>
+	</item>
+</root>

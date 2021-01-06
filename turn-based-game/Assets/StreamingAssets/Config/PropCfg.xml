@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>生命药水</name>
+		<description>可以回复30%的生命值。</description>
+		<cost>12</cost>
+		<icon>bottlehp</icon>
+		<rarity>R</rarity>
+		<skillId>1021</skillId>
+	</item>
+	<item id="1002">
+		<name>魔法药水</name>
+		<description>可以回复30%的法力值。</description>
+		<cost>12</cost>
+		<icon>bottlemp</icon>
+		<rarity>R</rarity>
+		<skillId>1022</skillId>
+	</item>
+</root>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>阳炎冲击</name>
+		<description>汇聚强大的火焰元素，猛烈地冲击目标区域，造成30点魔法伤害,每次施法都会让阳炎冲击的伤害提升30%。
+法力消耗：15MP，冷却时间：4回合</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<icon>icon_skill_sunburst</icon>
+		<maincfg>{1002,15},{4002,30},{5002,1002,-1},{6001,Sunburst,0,0.5}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1002">
+		<name>虚无</name>
+		<description>使目标进入虚无状态，虚无状态下的角色，每受到一次伤害时会受到额外的50点魔法伤害。
+法力消耗：15MP，冷却时间：8回合</description>
+		<passive>0</passive>
+		<cd>8</cd>
+		<icon>icon_skill_nihility</icon>
+		<maincfg>{1002,15},{5001,1001,3}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1003">
+		<name>魔力回路</name>
+		<description>强化对魔力的感知和利用，
+获得buff：魔力回路，buff状态下，法力消耗+20%，造成的魔法伤害+20%。持续本次战斗。
+法力消耗：10MP，冷却时间：3回合</description>
+		<passive>0</passive>
+		<cd>15</cd>
+		<icon>icon_skill_magicloop</icon>
+		<maincfg>{1002,10},{5002,1003,-1}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1004">
+		<name>火焰吐息</name>
+		<description>造成15点魔法伤害，附加debuff灼伤，持续5回合，灼伤状态下的角色，回合结束时受到10点魔法伤害，该伤害可叠加。
+法力消耗：15MP，冷却时间：2回合</description>
+		<passive>0</passive>
+		<cd>2</cd>
+		<icon>icon_skill_burn</icon>
+		<maincfg>{1002,15},{4002,15},{5001,1004,5}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1005">
+		<name>生命吸取</name>
+		<description>汲取目标身上的生命力量化为己用，
+造成20点魔法伤害，回复10点生命值和10点法力值。
+法力消耗：15MP，冷却时间：4回合</description>
+		<passive>0</passive>
+		<cd>4</cd>
+		<icon>icon_skill_lifesteal</icon>
+		<maincfg>{1002,15},{4002,20},{4009,10},{4010,10}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1006">
+		<name>复苏</name>
+		<description>焕发出强大是生命能量，大幅回复自身的状态，
+回复30%的生命值和30%的法力值，并移除所有debuff。
+法力消耗：30MP，冷却时间：15回合</description>
+		<passive>0</passive>
+		<cd>15</cd>
+		<icon>icon_skill_recover</icon>
+		<maincfg>{1002,30},{4011,30},{4012,30},{4013}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1007">
+		<name>抗性皮肤</name>
+		<description>渐渐适应受到的打击，并开始提高对其的抗性。
+获得buff：抗性皮肤，buff状态下，受到任何伤害时，防御力+3。持续本次战斗。
+法力消耗：10MP，冷却时间：15回合。</description>
+		<passive>0</passive>
+		<cd>15</cd>
+		<icon>icon_skill_resistskin</icon>
+		<maincfg>{1002,10},{5002,1005,-1}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1008">
+		<name>狂热</name>
+		<description>随着战斗的节奏逐渐狂热，在战斗中不断强化自己。
+获得buff：狂热，buff状态下，造成物理伤害时，攻击力+5.持续本次战斗。
+法力消耗：10Mp，冷却时间：15回合。</description>
+		<passive>0</passive>
+		<cd>15</cd>
+		<icon>icon_skill_crazy</icon>
+		<maincfg>{1002,10},{5002,1006,-1}</maincfg>
+		<skillType>0</skillType>
+	</item>
+	<item id="1009">
+		<name>血瓶</name>
+		<description>血ppppppppp</description>
+		<skillType>1</skillType>
+	</item>
+	<item id="1010">
+		<name>蓝瓶</name>
+		<description>兰LLLLLLLL</description>
+	</item>
+</root>

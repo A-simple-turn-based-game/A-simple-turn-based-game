@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1">
+		<name>点燃</name>
+		<description>阿巴巴巴</description>
+		<icon>er32r</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<buffJudge idq = 3> 
+			<Judge>2</Judge>
+			<Time>3</Time>
+		</buffJudge>
+		<buffJudge idq = 4> 
+			<Judge>2</Judge>
+			<Time>3</Time>
+		</buffJudge>
+		<buffCycleJudge>2001</buffCycleJudge>
+		<buffAction>3001</buffAction>
+		<buffValue>20</buffValue>
+	</item>
+	<item id="2">
+		<name>点燃</name>
+		<description>阿巴巴巴</description>
+		<icon>er32r</icon>
+		<isDebuff>1</isDebuff>
+		<canBeDispelled>1</canBeDispelled>
+		<buffJudge idq = 3> 
+			<Judge>2</Judge>
+			<Time>3</Time>
+		</buffJudge>
+		<buffJudge idq = 4> 
+			<Judge>2</Judge>
+			<Time>3</Time>
+		</buffJudge>
+		<buffCycleJudge>2001</buffCycleJudge>
+		<buffAction>3001</buffAction>
+		<buffValue>20</buffValue>
+	</item>
+</root>

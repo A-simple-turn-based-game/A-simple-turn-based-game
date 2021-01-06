@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·威力</name>
+		<description>阳炎冲击的基础魔法伤害增加40点</description>
+		<propertychangedict>{1001,4002,40}</propertychangedict>
+	</item>
+	<item id="1002">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·余波</name>
+		<description>阳炎冲击附加40点物理伤害</description>
+		<additionalcfg1>{4001,40}</additionalcfg1>
+	</item>
+	<item id="1003">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·急速</name>
+		<description>阳炎冲击的冷却时间-1回合。</description>
+		<propertychangedict>{1005,-1}</propertychangedict>
+	</item>
+	<item id="1004">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·超负荷</name>
+		<description>阳炎冲击的基础魔法伤害+60点,但冷却时间+2回合。</description>
+		<propertychangedict>{1001,4002,60},{1005,2}</propertychangedict>
+	</item>
+	<item id="1005">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·魔力灌注</name>
+		<description>阳炎冲击的基础魔法伤害+60点,但法力消耗+10MP。</description>
+		<propertychangedict>{1001,4002,60},{1003,1002,10}</propertychangedict>
+	</item>
+	<item id="1006">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·三重施法</name>
+		<description>阳炎冲击现在会连续施法3次，但基础魔法伤害下降50%。</description>
+		<propertychangedict>{1002,4002,50},{1010,3001},{1009,2003,3}</propertychangedict>
+	</item>
+	<item id="1007">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·点燃</name>
+		<description>阳炎冲击现在会附加debuff：灼伤，使目标在回合结束时受到10点法术伤害，持续5回合。</description>
+		<additionalcfg1>{5001,1004,5}</additionalcfg1>
+	</item>
+	<item id="1008">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·清晰</name>
+		<description>阳炎冲击的法力消耗-10</description>
+		<propertychangedict>{1003,1002,-10}</propertychangedict>
+	</item>
+	<item id="1009">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·破晓</name>
+		<description>阳炎冲击的法力消耗、冷却时间、基础伤害翻倍</description>
+		<propertychangedict>{1002,4002,200},{1004,1002,200},{1006,200}</propertychangedict>
+	</item>
+	<item id="1010">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·仓促施法</name>
+		<description>阳炎冲击的冷却时间-3回合，
+法力消耗和基础魔法伤害下降40%。</description>
+		<propertychangedict>{1002,4002,60},{1004,1002,60},{1005,-3}</propertychangedict>
+	</item>
+	<item id="1011">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·破甲熔岩</name>
+		<description>阳炎冲击的每次命中会降低目标的5点防御力</description>
+		<additionalcfg1>{5001,1008,-1}</additionalcfg1>
+	</item>
+	<item id="1012">
+		<skillid>1001</skillid>
+		<name>阳炎冲击·涅槃</name>
+		<description>每次释放阳炎冲击都会回复10%的最大生命值。</description>
+		<additionalcfg1>{4011,10}</additionalcfg1>
+	</item>
+	<item id="1013">
+		<skillid>1002</skillid>
+		<name>虚无·急速</name>
+		<description>虚无的冷却时间-1回合。</description>
+		<propertychangedict>{1005,-1}</propertychangedict>
+	</item>
+	<item id="1014">
+		<skillid>1002</skillid>
+		<name>虚无·清晰</name>
+		<description>虚无的法力消耗-10MP</description>
+		<propertychangedict>{1003,1002,-10}</propertychangedict>
+	</item>
+	<item id="1015">
+		<skillid>1002</skillid>
+		<name>虚无·幽魂化</name>
+		<description>虚无还会使目标造成和受到的物理伤害-50%，持续2回合。</description>
+		<additionalcfg1>{5001,1022,2}</additionalcfg1>
+	</item>
+	<item id="1016">
+		<skillid>1002</skillid>
+		<name>虚无·灵魂之躯</name>
+		<description>虚无还会使自己造成和受到的物理伤害-50%，持续2回合。</description>
+		<additionalcfg1>{5002,1022,2}</additionalcfg1>
+	</item>
+	<item id="1017">
+		<skillid>1002</skillid>
+		<name>虚无·裂心</name>
+		<description>虚无还会使目标受到的魔法伤害+30%，持续2回合。</description>
+		<additionalcfg1>{5001,1032,2}</additionalcfg1>
+	</item>
+	<item id="1018">
+		<skillid>1002</skillid>
+		<name>虚无·深度虚化</name>
+		<description>虚无状态的持续时间+2回合，但冷却时间+2回合。</description>
+		<propertychangedict>{1005,3}</propertychangedict>
+		<additionalcfg1>{5001,1001,2}</additionalcfg1>
+	</item>
+	<item id="1019">
+		<skillid>1002</skillid>
+		<name>虚无·灵魂窃取</name>
+		<description>每次释放虚无都会回复5%的最大生命值和法力值。</description>
+		<additionalcfg1>{4011,5}</additionalcfg1>
+		<additionalcfg2>{4012,5}</additionalcfg2>
+	</item>
+	<item id="1020">
+		<skillid>1002</skillid>
+		<name>虚无·幽魂打击</name>
+		<description>释放虚无后，对目标造成30点魔法伤害。</description>
+		<additionalcfg1>{4002,30}</additionalcfg1>
+	</item>
+	<item id="1021">
+		<skillid>1002</skillid>
+		<name>虚无·恐惧幽魂</name>
+		<description>虚无现在会眩晕目标1个回合。</description>
+		<additionalcfg1>{5001,1031,1}</additionalcfg1>
+	</item>
+	<item id="1022">
+		<skillid>1002</skillid>
+		<name>虚无·高速吟唱</name>
+		<description>虚无的冷却时间-2回合，法力消耗+20.</description>
+		<propertychangedict>{1003,1002,-10},{1005,-2}</propertychangedict>
+	</item>
+	<item id="1023">
+		<skillid>1002</skillid>
+		<name>虚无·幽魂缠身</name>
+		<description>虚无状态的持续时间+1回合。</description>
+		<additionalcfg1>{5001,1001,1}</additionalcfg1>
+	</item>
+	<item id="1024">
+		<skillid>1002</skillid>
+		<name>虚无·无力化</name>
+		<description>虚无的每次命中会降低目标的10点攻击力。</description>
+		<additionalcfg1>{5001,1023,-1}</additionalcfg1>
+	</item>
+	<item id="1025">
+		<skillid>1020</skillid>
+		<name>霜爆·威力</name>
+		<description>霜爆的基础魔法伤害增加30点。</description>
+		<propertychangedict>{1001,4002,20}</propertychangedict>
+	</item>
+	<item id="1026">
+		<skillid>1020</skillid>
+		<name>霜爆·急速</name>
+		<description>霜爆的冷却时间-1回合。</description>
+		<propertychangedict>{1005,-1}</propertychangedict>
+	</item>
+	<item id="1027">
+		<skillid>1020</skillid>
+		<name>霜爆·清晰</name>
+		<description>霜爆的法力消耗-10。</description>
+		<propertychangedict>{1003,1002,-10}</propertychangedict>
+	</item>
+	<item id="1028">
+		<skillid>1020</skillid>
+		<name>霜爆·凝寒</name>
+		<description>霜爆额外附加1个回合的霜蚀状态。</description>
+		<additionalcfg1>{5001,1018,1}</additionalcfg1>
+	</item>
+	<item id="1029">
+		<skillid>1020</skillid>
+		<name>霜爆·迟缓施法</name>
+		<description>霜爆现在还会使目标的造成魔法伤害降低30%，持续2回合。</description>
+		<additionalcfg1>{5001,1019,2}</additionalcfg1>
+	</item>
+	<item id="1030">
+		<skillid>1020</skillid>
+		<name>霜爆·永冻诅咒</name>
+		<description>霜爆额外附加2个回合的霜蚀状态，但冷却时间+3回合。</description>
+		<propertychangedict>{1005,3}</propertychangedict>
+		<additionalcfg1>{5001,1018,2}</additionalcfg1>
+	</item>
+	<item id="1031">
+		<skillid>1020</skillid>
+		<name>霜爆·冰封秘典</name>
+		<description>释放霜爆后，造成的法术伤害提升50%，持续1回合。</description>
+		<additionalcfg1>{5002,1020,2}</additionalcfg1>
+	</item>
+	<item id="1032">
+		<skillid>1020</skillid>
+		<name>霜爆·高速吟唱</name>
+		<description>霜爆的冷却时间-2回合，法力消耗+20。</description>
+		<propertychangedict>{1003,1002,-10},{1005,-2}</propertychangedict>
+	</item>
+	<item id="1033">
+		<skillid>1020</skillid>
+		<name>霜爆·永霜</name>
+		<description>霜爆不再造成伤害，附加的霜蚀效果持续时间变为无限。</description>
+		<propertychangedict>{1002,4002,0}</propertychangedict>
+		<additionalcfg1>{5001,1018,-99}</additionalcfg1>
+	</item>
+	<item id="1034">
+		<skillid>1020</skillid>
+		<name>霜爆·蚀骨之握</name>
+		<description>霜爆现在会眩晕目标1个回合</description>
+		<additionalcfg1>{5001,1031,1}</additionalcfg1>
+	</item>
+	<item id="1035">
+		<skillid>1020</skillid>
+		<name>霜爆·冰晶爆破</name>
+		<description>霜爆造成的魔法伤害提升50%，法力消耗+50%。</description>
+		<propertychangedict>{1002,4002,150},{1004,1002,150}</propertychangedict>
+	</item>
+	<item id="1036">
+		<skillid>1020</skillid>
+		<name>霜爆·冻伤</name>
+		<description>霜爆现在会附加debuff：冻伤，使目标在回合结束时受到10点法术伤害，持续5回合。</description>
+		<additionalcfg1>{5001,1021,5}</additionalcfg1>
+	</item>
+	<item id="1037">
+		<skillid>1005</skillid>
+		<name>生命汲取·急速</name>
+		<description>生命汲取的冷却时间-1回合</description>
+		<propertychangedict>{1005,-1}</propertychangedict>
+	</item>
+	<item id="1038">
+		<skillid>1005</skillid>
+		<name>生命汲取·鲜血</name>
+		<description>生命汲取的基础魔法伤害+20，且生命值回复量+20。</description>
+		<propertychangedict>{1001,4002,20},{1001,4009,20}</propertychangedict>
+	</item>
+	<item id="1039">
+		<skillid>1005</skillid>
+		<name>生命汲取·灵魂</name>
+		<description>生命汲取的基础魔法伤害+20，且法力值回复量+20。</description>
+		<propertychangedict>{1001,4002,20},{1001,4010,20}</propertychangedict>
+	</item>
+	<item id="1040">
+		<skillid>1005</skillid>
+		<name>生命汲取·无尽饥渴</name>
+		<description>生命汲取的冷却时间-2回合，但法力消耗+10MP。</description>
+		<propertychangedict>{1005,-2},{1003,1002,15}</propertychangedict>
+	</item>
+	<item id="1041">
+		<skillid>1005</skillid>
+		<name>生命汲取·力量成长</name>
+		<description>每次使用生命汲取，还会让你获得5点攻击力和防御力。</description>
+		<additionalcfg1>{5002,1007,-1}</additionalcfg1>
+	</item>
+	<item id="1042">
+		<skillid>1005</skillid>
+		<name>生命汲取·强力</name>
+		<description>生命汲取的基础魔法伤害+30</description>
+		<propertychangedict>{1001,4002,30}</propertychangedict>
+	</item>
+	<item id="1043">
+		<skillid>1005</skillid>
+		<name>生命汲取·第一滴血</name>
+		<description>生命汲取施法时，额外回复5%的最大生命值和法力值</description>
+		<additionalcfg1>{4011,5},{4012,5}</additionalcfg1>
+	</item>
+	<item id="1044">
+		<skillid>1005</skillid>
+		<name>生命汲取·血怒</name>
+		<description>低于50%生命值时，生命汲取额外造成100点法术伤害</description>
+		<additionalcfg1>{2001,50},{4002,100}</additionalcfg1>
+	</item>
+	<item id="1045">
+		<skillid>1005</skillid>
+		<name>生命汲取·清晰</name>
+		<description>生命汲取的法力消耗-15MP</description>
+		<propertychangedict>{1003,1002,-15}</propertychangedict>
+	</item>
+	<item id="1046">
+		<skillid>1005</skillid>
+		<name>生命汲取·渴血</name>
+		<description>你每失去5%生命值，生命汲取额外回复2点生命值</description>
+		<additionalcfg1>{2001,5},{4009,2}</additionalcfg1>
+	</item>
+	<item id="1047">
+		<skillid>1005</skillid>
+		<name>生命汲取·魔瘾</name>
+		<description>你每失去5%生命值，生命汲取额外回复2点法力值</description>
+		<additionalcfg1>{2001,5},{4010,2}</additionalcfg1>
+	</item>
+	<item id="1048">
+		<skillid>1005</skillid>
+		<name>生命汲取·鲜血转换</name>
+		<description>生命汲取造成的魔法伤害和生命回复翻倍，
+但不再回复法力值。</description>
+		<propertychangedict>{1002,4002,200},{1002,4009,200},{1002,4010,0}</propertychangedict>
+	</item>
+</root>

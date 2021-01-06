@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>奈文摩尔</name>
+		<icon>default</icon>
+		<description>复活的亡灵</description>
+		<model>player</model>
+		<exp>10,15,25,50,75,75,100,100,150,150,200,200,300,300</exp>
+		<gold>150</gold>
+		<hp>200</hp>
+		<mp>100</mp>
+		<atk>20</atk>
+		<def>10</def>
+		<crit>10</crit>
+		<criticaldamage>150</criticaldamage>
+		<skills>{1001}</skills>
+		<Atk_time>2</Atk_time>
+		<Skill_time>1.5</Skill_time>
+		<CGAtk_time>1</CGAtk_time>
+		<Command_time>1</Command_time>
+		<AtkDamage_time>1</AtkDamage_time>
+	</item>
+</root>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item id="1001">
+		<name>丛林一</name>
+		<description>0</description>
+		<modelType>丛林深处</modelType>
+		<row>32</row>
+		<col>32</col>
+		<monster>{1001,2},{1007,1}</monster>
+		<event>{1001,1},{1002,1}</event>
+		<nextmap>111</nextmap>
+		<bgm>1</bgm>
+		<bossbgm>1</bossbgm>
+		<normalbgm>1</normalbgm> 
+	</item>
+	<item id="1002">
+		<name>丛林一</name>
+		<description>0</description>
+		<modelType>丛林深处</modelType>
+		<row>32</row>
+		<col>32</col>
+		<monster>{1001,2},{1007,1}</monster>
+		<event>{1001,1},{1002,1}</event>
+		<nextmap>111</nextmap>
+		<bgm>1</bgm>
+		<bossbgm>1</bossbgm>
+		<normalbgm>1</normalbgm> 
+	</item>
+</root>
