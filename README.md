@@ -1,6 +1,11 @@
 # A-simple-turn-based-game
 一个基于Unity制作的简单回合制游戏
 
+![image](https://github.com/A-simple-turn-based-game/A-simple-turn-based-game/blob/main/img/game.png)
+
+![image](https://github.com/A-simple-turn-based-game/A-simple-turn-based-game/blob/main/img/game2.png)
+
+![image](https://github.com/A-simple-turn-based-game/A-simple-turn-based-game/blob/main/img/game3.png)
 ## 感谢
 
 Clean Vector Icons
